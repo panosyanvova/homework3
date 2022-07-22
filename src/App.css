@@ -1,38 +1,99 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+}
+.main{
+  min-height: 100vh;
+}
+  
+
+.header{
+  padding: 10px 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.onePage{
+  color: #2b5b68;
+}
+.onePageStyle{
+  font-weight:400;
+  font-size: 27px;
+}
+.menu{
+  display: flex;
+  padding-left: 70px;
+}
+li {
+  color: #5f7f98;
+  list-style-type: none; 
+  padding: 0 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+li:hover{
+  color: #c3e5fc;
+  font-size: 14px;
+  transition: 0.5s;
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+}
+.contact-title{
+  text-align: center;
+  padding-right: 20px;
+  color: #5f7f98;
+}
+
+.getStarted-kojak,.body-kojak{
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #2487ce;
+  border: #2487ce;
+  border-radius: 8px;
+}
+
+.body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body-kojak{
+  
+  padding: 10px 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bodyVernagir{
+  padding-top: 5vw;
+  color: rgb(17, 65, 101,1);
+  font-family: 'Shippori Antique', sans-serif;
+  font-size: 50px;
+}
+.bodytapancikText{
+  padding-top: 0.5vw;
+  padding-bottom: 1vw;
+  font-family: 'Square Peg', cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer{
+  padding: 10vw 130px 0vw 130px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.footerCont1,.footerCont2,.footerCont3,.footerCont4{
+  width: 15vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footerVernagir{
+  color:#175288;
+  padding-bottom: 10px;
+}
+
+.footerText{
+  font-family: 'Square Peg', cursive;
 }
